@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sign Up To Travelust</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/singup_stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script|Quicksand|Yellowtail" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js-webshim/minified/polyfiller.js"></script>
+        <script> 
+            webshim.activeLang('en');
+            webshims.polyfill('forms');
+            webshims.cfg.no$Switch = true;
+        </script>
+    </head>
+    
+    <body>
+	
+        <main>
+            
+            <section class="wrapper">
+                
+                <div class="logo">
+                    <a class="logo-link" href="index.html">Travelust</a>
+                </div>
+                
+                <p>Let's create your account</p>
+                <form action="Travelust/webresources/service/signup" method="post">
+                    <div class="font-element nameInput firstName" >
+        
+                        <label for="fname">First Name</label><br/>
+                        <input type="text" name="fname" id="fname" required pattern="[a-zA-Z-.\s']{0,50}" title="Name must not contain any numbers or special characters except '-', '.'">
+                
+                    </div>
+                    
+                    <div class="font-element nameInput lastName" >
+        
+                        <label for="lname">Last Name</label><br/>
+                        <input type="text" name="lname" id="lname" required pattern="[a-zA-Z-.\s']{0,50}" title="Name must not contain any numbers or special characters except '-', '.'">
+                
+                    </div>
+                    
+                    <div class="clear"></div>
+                    
+                    <div class="font-element">
+        
+                        <label for="bday">Day of Birth</label><br/>
+                        <input type="date" name="bday" id="bday" required>
+                
+                    </div>
+                    
+                    <div class="font-element">
+        
+                        <label for="email">E-mail address</label><br/>
+                        <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Email must follow this format: 'email@host.extension' and not contain special characters except '-', '_', '.', '+', '%'">
+                
+                    </div>
+                    
+                    <div class="font-element">
+        
+                        <label for="pword">Password</label><br/>
+                        <input type="password" name="pword" id="pword" required pattern="^[^\s](?=.*[\d\W])(?=.*[a-zA-Z]).{6,253}[^\s]$" title="Password must contains at least 8 characters including 1 digit or 1 special character">
+                
+                    </div>
+                    
+                    <div class="font-element">
+        
+                        <label for="conf-pword">Confirm password</label><br/>
+                        <input type="password" name="conf-pword" id="conf-pword" required pattern="^[^\s](?=.*[\d\W])(?=.*[a-zA-Z]).{6,253}[^\s]$" title="Must be the same as the password above">
+                
+                    </div>
+                    
+                    <div class="font-element termCond">
+        
+                        <input type="checkbox" id="term-cond" required>
+                        
+                        <label class="smallerLabel" for="rememberPass">I agree to the Terms & Conditions of the service</label>
+                
+                    </div>
+                    
+                    <div class="font-element">
+        
+                        <input type="submit" id="signupButton" value="Sign Up"/><br/>
+                
+                    </div>
+                    
+                </form>
+                
+                <div class="bottom-text">
+                    
+                    <p>Already a member? <a href="login.html">Log In</a></p>
+                
+                </div>
+                
+            </section>
+        </main>
+	
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/signup-script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Log in to Travelust</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/login_stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script|Quicksand|Yellowtail" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    
+    <body>
+	
+	<main>
+        
+        <section class="wrapper">
+            
+            <div class="logo">
+                <a class="logo-link" href="index.html">Travelust</a>
+            </div>
+            <p>Let's log you in</p>
+            
+            <form action="Travelust/webresources/service/login" method="post">
+                <div class="font-element">
+        
+                    <label for="email">Email</label><br/>
+                    <input type="text" name="email" id="email">
+                
+                </div>
+            
+                <div class="font-element">
+            
+                    <label for="password">Password</label><br/>
+                    <input type="password" name="password" id="password">
+                
+                </div>
+                
+                <div class="font-element">
+                
+                    <input type="checkbox" id="rememberPass" name="rememberPass">
+                    <label class="smallerLabel" for="rememberPass">Remember password</label>
+                    
+                </div>
+            
+                <div class="font-element">
+                    <input type="submit" id="loginButton" value="Log In">
+                </div>
+                
+            </form>
+            <div class="bottom-text">
+                <p>Haven't got an account? <a href="signup.html">Sign Up</a></p>
+            </div>
+        </section>
+	</main>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<!--        <script src="js/main.js"></script>-->
+    </body>
+</html>

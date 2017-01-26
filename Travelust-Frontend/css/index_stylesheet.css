@@ -1,0 +1,346 @@
+body {
+    
+    background-image: url(../img/home_background5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:azure;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+/* TOP-NAV-BAR */
+
+.nav-bar {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 55px;
+    
+}
+
+.logo {
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 3px 0 0 5px;
+     
+}
+
+.nav-item {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    float: right;
+    
+}
+
+nav a {
+    
+    display: inline-block;
+    text-decoration: none;
+    border: 2px white solid;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    margin: -10px 5px 10px 3px;
+    
+}
+
+
+
+.clear {
+    
+    clear: both;
+    
+}
+
+/*--END NAV BAR--*/
+
+
+.clear {
+    
+    clear: both;
+}
+
+
+
+/* MAIN */
+
+.container {
+    
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 170px;
+    
+}
+
+.content {
+    
+    text-align: center;
+    color:white;
+    line-height: normal;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 3px 3px 5px #000000;
+    
+}
+
+#slogan {
+    
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#introduction {
+    
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#explore-button {
+    
+    text-decoration: none;
+    border: 3px white solid;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 10px 3px 10px; 
+    
+}
+
+.button {
+    
+    -webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.button:hover {
+    
+    background-color: white;
+    text-shadow: none;
+    color: black !important;
+}
+
+
+
+/*--END MAIN--*/
+
+/*--FOOTER--*/
+
+.wrapper {
+    
+    
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.footer{
+    
+    list-style: none;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+        
+    
+}
+#about-us {
+    
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+
+.social-icon {
+    
+    width: 23px;
+    margin-left: 16px;
+    padding-top: 4px;
+}
+
+/*--END FOOTER--*/
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */    
+
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 1199px){
+    
+    .logo {
+        
+        font-size: 30px;
+        padding: 5px 0 0 5px;
+
+    }
+    
+    .container {
+    
+        padding-top: 250px;
+  
+    }
+    
+    #slogan {
+
+        font-size: 45px;
+    }
+    
+    #introduction {
+
+        font-size: 25px;
+        padding-bottom: 30px;
+
+    }
+
+    #explore-button {
+        
+        font-size: 30px;
+    
+    }
+    
+    #about-us {
+        font-size: 23px;
+    }
+    
+    .social-icon {
+        
+        width: 23px;
+        margin-left: 18px;
+        padding-top: 8px;
+    }
+}
+    
+/*FOR DESKTOP SCREEN*/
+@media screen 
+  and (min-device-width: 1200px) and (max-device-width: 1599px) {
+      
+    .logo {
+        
+        font-size: 30px;
+        padding: 5px 0 0 5px;
+
+    }
+    
+    nav a {
+        
+        font-size: 23px;
+    }
+    
+    .container {
+    
+        padding-top: 150px;
+  
+    }
+    
+    #slogan {
+
+        font-size: 45px;
+    }
+    
+    #introduction {
+
+        font-size: 25px;
+        padding-bottom: 30px;
+
+    }
+
+    #explore-button {
+        
+        font-size: 30px;
+    
+    }
+    
+    #about-us {
+        font-size: 23px;
+    }
+    
+    .social-icon {
+        
+        width: 23px;
+        margin-left: 18px;
+        padding-top: 8px;
+    }
+}
+
+
+/*--FOR LARGER SCREEN--*/
+@media screen and (min-device-width: 1600px){
+    
+    .logo {
+        
+        font-size: 36px;
+        padding: 0 0 0 5px;
+
+    }
+    
+    .container {
+    
+        padding-top: 250px;
+  
+    }
+    
+    #slogan {
+
+        font-size: 55px;
+    }
+    
+    #introduction {
+
+        font-size: 35px;
+        padding-bottom: 30px;
+
+    }
+
+    #explore-button {
+        
+        font-size: 40px;
+    
+    }
+    
+    #about-us {
+        font-size: 33px;
+    }
+    
+    .social-icon {
+        
+        width: 33px;
+        margin-left: 18px;
+        padding-top: 8px;
+    }
+}
