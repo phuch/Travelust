@@ -11,7 +11,10 @@ Once logged in, you can share your memories, tips and photos with the world.
 
 IMPLEMENTATION:
 ---------------
-About front-end side, this app is built purely from HTML, CSS, Javascript and AJAX.
+About front-end side, this web app is built purely from HTML, CSS, Javascript and AJAX, using framework is not allowed
+
+Follow responsive, mobile first principle
+
 
 About back-end side, this is built from JavaEE including JPA, EJB, JAX-RS in combination with Jersey and JSON.
 
