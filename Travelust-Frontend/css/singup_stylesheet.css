@@ -1,0 +1,416 @@
+body {
+    
+    background-image: url(../img/home_background5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    
+}
+
+.logo {
+    
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.logo-link {
+      
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: white;
+
+}
+
+p {
+   
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+input {
+                
+    width: 260px;
+    padding: 7px 5px 7px 5px;
+    font-size: 23px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    
+}
+
+label {
+    
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.smallerLabel {
+    
+    font-size: 16px;
+    
+}
+
+.termCond {
+    
+    text-align: center;
+    position: relative;
+    left: -15px;
+}
+
+#term-cond {
+    
+    width: 18px;
+    
+}
+
+.font-element {
+    
+    margin: 10px;
+    
+}
+
+.wrapper {
+    width: 300px;
+    margin: 40px auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+}
+
+
+#signupButton {
+    
+    width: 120px;
+    margin-left: 75px;
+    background-color: #039BE5;
+    border: none;
+    -webkit-appearance: none;
+   
+}
+
+.nameInput{
+    
+    font-size: 20px;
+    width: 120px;
+    float: left;
+    margin:0;
+}
+
+.firstName {
+    
+    margin-left: 11px;
+}
+
+.lastName {
+    
+    margin-left: 17px;
+}
+
+#fname {
+    
+    width: 120px;
+}
+
+#lname {
+    
+    width: 120px;
+    
+}
+
+.clear {
+    
+    clear: both;
+}
+
+.bottom-text p{
+    
+    font-size: 18px;
+    
+}
+
+.bottom-text a{
+    
+    text-decoration: none;
+    color: #039BE5;
+    
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and (max-device-width: 320px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .wrapper {
+
+        width: 250px;
+        margin: 40px auto;
+    }
+    
+    input {
+                
+        width: 220px;
+        font-size: 18px;
+    }
+    
+    .bottom-text p{
+    
+        font-size: 16px;
+    
+    }
+
+    .smallerLabel {
+
+        font-size: 16px;
+    }
+    
+    p {
+       
+       font-size: 18px;
+
+    }
+    
+    .nameInput{
+    
+        font-size: 18px;
+        width: 100px;
+
+    }
+    
+    .lastName {
+        
+        margin-left: 20px;
+    }
+    
+    #fname {
+    
+        width: 100px;
+    }
+
+    #lname {
+    
+        width: 100px;
+    
+    }
+    
+    #signupButton {
+        
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 1199px){
+    
+    body {
+        font-size: 23px;
+    }
+
+    .wrapper {
+
+        width: 340px;
+        margin: 100px auto;
+    }
+    
+    input {
+                
+        width: 300px;
+    }
+    
+    .bottom-text p{
+    
+        font-size: 20px;
+    
+    }
+
+    .smallerLabel {
+
+        font-size: 20px;
+    }
+    
+    p {
+       
+       font-size: 23px;
+
+    }
+    
+    .nameInput{
+    
+        font-size: 23px;
+        width: 140px;
+
+    }
+    
+    .lastName {
+        
+        margin-left: 20px;
+    }
+    
+    #fname {
+    
+        width: 140px;
+    }
+
+    #lname {
+    
+        width: 137px;
+    
+    }
+    
+     #signupButton {
+        
+        margin-left: 105px;
+    }
+    
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1599px){
+    
+    body {
+        font-size: 25px;
+    }
+    
+    .wrapper{
+        
+        width: 360px;
+        margin: 55px auto;
+    }
+    
+    input {
+                
+        width: 320px;
+    }
+    
+    .bottom-text p{
+    
+        font-size: 20px;
+    
+    }
+
+    .smallerLabel {
+
+        font-size: 20px;
+    }
+    
+    p {
+       
+       font-size: 23px;
+
+    }
+    
+    .nameInput{
+    
+        font-size: 25px;
+        width: 170px;
+        float: left;
+        margin: 0;
+        
+    }
+
+    .firstName {
+
+        margin-left: 11px;
+    }
+
+
+    #fname {
+
+        width: 147px;
+    }
+
+    #lname {
+
+        width: 148px;
+
+    }
+    
+     #signupButton {
+        
+        margin-left: 110px;
+    }
+
+
+}
+
+@media screen and (min-device-width: 1600px){
+    
+    body {
+        font-size: 30px;
+    }
+    
+    .wrapper{
+        
+        width: 400px;
+        margin: 100px auto;
+    }
+    
+    input {
+                
+        width: 360px;
+    }
+    
+    .bottom-text p{
+    
+        font-size: 25px;
+    
+    }
+
+    .smallerLabel {
+
+        font-size: 20px;
+    }
+    
+    p {
+       
+       font-size: 25px;
+
+    }
+    
+    .nameInput{
+    
+        font-size: 30px;
+        width: 190px;
+        float: left;
+        margin: 0;
+    }
+
+    .firstName {
+
+        margin-left: 11px;
+    }
+
+
+    #fname {
+
+        width: 165px;
+    }
+
+    #lname {
+
+        width: 165px;
+
+    }
+    
+     #signupButton {
+        
+        margin-left: 110px;
+    }
+
+    
+}
+
+
