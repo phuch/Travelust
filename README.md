@@ -22,5 +22,5 @@ About database, we're using mySQL with phpMyAdmin as the DBMS tools.
 
 Travalust is deployed on Glassfish Server 4.0.
 
-URL to display front-end code: http://79.170.44.118/blackfrenchie.com/Content/Travelust/
-URL to display final website: http://10.114.32.23:8080 (accessing require inside Metropolia internet or tunneling to Metropolia internet)
+[Static Page Demo](https://phuch.github.io/TravelustFrontEnd/)
+[Full Page Demo](http://10.114.32.23:8080) (accessing require inside Metropolia UAS network or tunneling to Metropolia network)
